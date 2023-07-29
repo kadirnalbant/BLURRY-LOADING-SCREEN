@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik Moonrocks', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    background: no-repeat center/cover url(https://i.sozcucdn.com/wp-content/uploads/2022/10/09/iecrop/fenerbahce-gol-sevinci-aa_16_9_1665342098.jpg?w=1200&h=675&mode=crop);
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width:  100vh;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    color: #f5d703;
+    font-size: 100px;
+
+}
